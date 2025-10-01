@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎙️ Anon-Voice
+Anon-Voice is a Next.js web application that allows users to collect anonymous feedback through a unique, shareable link.The platform ensures privacy for the sender, while providing the receiver with sentiment analysis powered by NLP to filter and block abusive or harmful comments.
 
-## Getting Started
+## 🚀 Features  
 
-First, run the development server:
+- 🔑 **User Authentication** – Secure login and signup.  
+- 🔗 **Unique Profile Link** – Each user gets a personal link to share for collecting feedback.  
+- 📝 **Anonymous Feedback** – Anyone with the link can send feedback without revealing their identity.  
+- 🤖 **NLP Sentiment Analysis** – Built-in sentiment analysis to detect and block **abusive or toxic comments**.  
+- 📊 **Feedback Dashboard** – Users can view, manage, and analyze received feedback in one place. 
 
+
+## 🛠️ Tech Stack  
+
+- [Next.js](https://nextjs.org/) – React-based framework for full-stack development.  
+- [TypeScript](https://www.typescriptlang.org/) – Type-safe code.  
+- [MongoDB] – Database for storing users & feedback.  
+- [JWT Authentication](https://jwt.io/) – For secure login.  
+- [NLP / Sentiment Analysis](https://huggingface.co/) – To detect abusive comments. 
+
+
+## ⚡ Getting Started  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/anon-voice.git
+cd anon-voice
+```
+
+### 2️⃣ Install Dependencies  
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### 3️⃣ Setup Environment Variables 
+```bash
+MONGODB_URI=<YOUR_MONGODB_URI>
+``` 
+
+### 4️⃣ Run Development Server  
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions to improve **Anon-Voice**! Whether it's fixing bugs, adding new features, improving documentation, or optimizing code, your help is appreciated.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📌 Steps to Contribute  
 
-## Learn More
+1. **Fork** the repository 🍴  
+2. **Clone** your forked repo locally:  
+   ```bash
+   git clone https://github.com/your-username/anon-voice.git
+   cd anon-voice
+   ```
+3. Create a new branch for your feature/fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```  
+4. Make your changes and commit:
+   ```bash
+   git add .
+   git commit -m "Add: your feature description"
+   ```  
+5. Push your branch:
+  ```bash
+  git push origin feature/your-feature-name
+  ```
+6. Open a Pull Request (PR) on the main repository 🎉
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Developed By  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Anon-Voice** is developed and maintained by:  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Monish](https://github.com/Monish0210)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ If you like this project, don’t forget to **star the repo** and share it with others!  
